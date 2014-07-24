@@ -8,7 +8,7 @@
   * the 95% confidence interval as an upper and lower range
   */
 
-public class PercolationStats throws IllegalArgumentException {
+public class PercolationStats {
     /** PercolationStats N-size experiments -> mean, stddev, 95% to stdout
       * throws IllegalArgumentException if either N <= 0 or T <= 0
       */
@@ -25,24 +25,29 @@ public class PercolationStats throws IllegalArgumentException {
         /** sample mean of percolation threshold
           */
         // TODO
+        return 0.0; // TODO fix return stub
     }
     
     public double stddev() {
         /** sample standard deviation of percolation threshold
+          * @return standard deviation as double
           */
         // TODO
+        return 0.0; // TODO fix return stub
     }
-    
+
     public double confidenceLo() {
         /** returns lower bound of the 95% confidence interval
           */
         // TODO
+        return 0.0; // TODO fix return stub
     }
     
     public double confidenceHi() {
         /** returns upper bound of the 95% confidence interval
           */
         // TODO
+        return 0.0;  // TODO fix return stub
     }
     
     public static void main(String[] args) {
@@ -53,4 +58,5 @@ public class PercolationStats throws IllegalArgumentException {
         // TODO
         System.out.println("Test complete!");
     }
+}
         

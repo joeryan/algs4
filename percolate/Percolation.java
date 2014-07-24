@@ -32,6 +32,7 @@ public class Percolation {
      * @param j column for site being checked
      */
         // TODO
+        return true; // TODO fix return stub
     }
     public boolean isFull(int i, int j) {  /**
      * is site (row i, column j) full?
@@ -40,13 +41,16 @@ public class Percolation {
      * @param j column for site being checked
      */ 
         // TODO
+        return true; // TODO fix return stub
     }
     public boolean percolates() {  /**
      * does the system percolate?
      * returns true if a path exists from row 1 to row N between open sites
      */
         // TODO
+        return true; // TODO fix return stub
     }
+}
     
     
                          
